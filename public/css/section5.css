@@ -8,7 +8,7 @@ li.number {
 	font-family: 'Roboto', sans-serif;
 	text-align: center;
 	color: #fff;
-	font-size: 3.5rem;
+	font-size: 2.5rem;
 	bottom: 0;
 	opacity: .7;
 	display: inline;
@@ -24,11 +24,11 @@ ul#emails {
 }
 div#contact-wrap{
 	background-color: black;
-	height: 35rem;
-	width: 38rem;
+  height: 20rem;
+  width: 26rem;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10rem;
+	margin-top: 7rem;
 	opacity: .7;
 }
 
@@ -38,6 +38,25 @@ h2#contact {
 	margin-bottom: 2rem;
 	padding-top: 4rem;
 	color:white;
-	font-size: 5rem;
+	font-size: 3rem;
+}
+
+@media only screen and (max-width: 590px) {
+  div#contact-wrap{
+	background-color: black;
+	height: 20rem;
+	width: 18rem;
+	margin-top: 4rem;
+	}
+	h2#contact {
+	font-size: 2rem;
+	}
+	li.number {
+	font-size: 1.5rem;
+	}
+	li#phone {
+	margin-top: .5rem;
+	font-size: 1rem;
+	}
 }
 
